@@ -3,7 +3,7 @@ from QDY30A_RS485 import QDY30A_RS485, MeasurementUnit, PrecisionLevel, BaudRate
 from machine import Pin
 
 # Initialize UART for RS485 communication on ESP32-S3
-# UART 1, TX pin 17, RX pin 18, DE/RE pin 17
+# UART 1, TX pin 17, RX pin 18, DE/RE pin 16
 uart1 = UART(1, rx=Pin(18), tx=Pin(17))
 
 qdy30a = QDY30A_RS485(uart1, de_re_pin=16)

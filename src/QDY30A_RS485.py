@@ -187,6 +187,14 @@ class QDY30A_RS485:
         if precision in PrecisionLevel.__dict__.values():
             self.write_register(RegStatus.PRECISION, precision)
 
+    def set_baud_rate(self, baud_rate):
+        """Write the baud rate of the transmitter (BaudRate.BAUD_xxx). The new speed is used by the device
+        from the next power cycle: then create the UART and the object again with the new baudrate."""
+        if baud_rate in BaudRate.__dict__.values():
+            self.write_register(RegStatus.BAUDRATE, baud_rate)
+        else:
+            raise ValueError("Invalid baud rate")
+
     def get_baud_rate_value(self):
         return self.read_register(RegStatus.BAUDRATE)
 

@@ -1,0 +1,17 @@
+{
+  "urls": [
+    [
+      "QDY30A_RS485.py",
+      "github:xreef/qdy30a-rs485-micropython/src/QDY30A_RS485.py"
+    ],
+    [
+      "QDY30A_RS485_constants.py",
+      "github:xreef/qdy30a-rs485-micropython/src/QDY30A_RS485_constants.py"
+    ],
+    [
+      "QDY30A_RS485_operation_constant.py",
+      "github:xreef/qdy30a-rs485-micropython/src/QDY30A_RS485_operation_constant.py"
+    ]
+  ],
+  "version": "0.1.1"
+}
