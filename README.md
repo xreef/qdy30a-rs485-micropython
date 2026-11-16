@@ -1,11 +1,11 @@
 ﻿<div>
 <a href="https://www.mischianti.org/forums/forum/mischiantis-libraries/qdy30a-rs485-modbus-devices/"><img
-  src="https://yourimageurl.com/buttonSupportForumEnglish.png" alt="Support forum QDY30A RS485 English"
+  src="https://github.com/xreef/LoRa_E32_Series_Library/raw/master/resources/buttonSupportForumEnglish.png" alt="Support forum QDY30A RS485 English"
    align="right"></a>
 </div>
 <div>
 <a href="https://www.mischianti.org/it/forums/forum/le-librerie-di-mischianti/qdy30a-rs485-dispositivi-modbus/"><img
-  src="https://yourimageurl.com/buttonSupportForumItaliano.png" alt="Forum supporto QDY30A RS485 italiano"
+  src="https://github.com/xreef/LoRa_E32_Series_Library/raw/master/resources/buttonSupportForumItaliano.png" alt="Forum supporto QDY30A RS485 italiano"
   align="right"></a>
 </div>
 
@@ -17,7 +17,7 @@
 
 #### Comprehensive guides and tutorials on my site www.mischianti.org
 
-[QDY30A RS485 & MicroPython: Getting Started and Basic Usage](https://mischianti.org/)
+[QDY30A RS485 & MicroPython: Getting Started and Basic Usage](https://mischianti.org/qdy30a-rs485-liquid-level-micropython-esp32-pico/)
 
 ### Changelog
  - 2024-02-06 0.1.0 Initial release - Fully functional library
@@ -26,10 +26,18 @@
 This example demonstrates the library constructor, including the UART interface along with optional but recommended pins.
 
 ### Installation
-Install the library with the following command:
+Copy the three files of the `src` folder to the board (to the root or to `/lib`):
+
+- `QDY30A_RS485.py`
+- `QDY30A_RS485_constants.py`
+- `QDY30A_RS485_operation_constant.py`
+
+With **Thonny**: open the files, right click > *Upload to /*. With **mpremote**, from the folder of this repository:
 
 ```bash
-pip install qdy30a-rs485-micropython
+mpremote cp src/QDY30A_RS485.py :
+mpremote cp src/QDY30A_RS485_constants.py :
+mpremote cp src/QDY30A_RS485_operation_constant.py :
 ```
 
 ### Example
