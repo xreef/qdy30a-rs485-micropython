@@ -13,7 +13,7 @@ A MicroPython library to read and configure the **QDY30A** submersible level tra
 slave address.
 
 **Author:** Renzo Mischianti
-**Website:** [www.mischianti.org](https://www.mischianti.org)
+**Website:** [www.mischianti.org](https://mischianti.org/category/my-libraries/qdy30a-rs485/)
 **GitHub:** [xreef/qdy30a-rs485-micropython](https://github.com/xreef/qdy30a-rs485-micropython)
 
 ---
@@ -22,10 +22,11 @@ slave address.
 
 Complete tutorials on [mischianti.org](https://www.mischianti.org):
 
+- 🌐 **[QDY30A RS485 Library Home](https://mischianti.org/category/my-libraries/qdy30a-rs485/)** - all the articles about the QDY30A libraries
 - 🐍 **[QDY30A RS485 liquid level sensor with MicroPython on ESP32-S3 and Raspberry Pi Pico](https://mischianti.org/qdy30a-rs485-liquid-level-micropython-esp32-pico/)** - wiring, installation, settings and level reading
 - 📖 **[QDY30A RS485 water level sensor with ESP32-S3, Arduino UNO and Raspberry Pi Pico](https://mischianti.org/qdy30a-rs485-water-level-sensor-esp32-arduino-pico/)** - the same sensor with the [Arduino library](https://github.com/xreef/QDY30A_RS485), 24V supply and transceivers explained
-- 💬 🇺🇸 **[Mischianti's libraries forum](https://mischianti.org/forums/forum/mischiantis-libraries/)** - questions, bugs and suggestions
-- 💬 🇮🇹 **[Forum delle librerie di Mischianti](https://mischianti.org/it/forums/forum/le-librerie-di-mischianti/)** - domande, bug e suggerimenti
+- 💬 🇺🇸 **[Library Forum & Support](https://mischianti.org/forums/forum/mischiantis-libraries/qdy30a-rs485-modbus-devices/)** - questions, bugs and suggestions
+- 💬 🇮🇹 **[Forum e supporto alla libreria](https://mischianti.org/it/forums/forum/le-librerie-di-mischianti/qdy30a-rs485-dispositivi-modbus/)** - domande, bug e suggerimenti
 
 ---
 
@@ -162,5 +163,5 @@ MIT License, see [LICENSE.md](LICENSE.md).
 ## 🤝 Support & Contact
 
 - 🌐 Website: [www.mischianti.org](https://www.mischianti.org)
-- 💬 Forum: [English](https://mischianti.org/forums/forum/mischiantis-libraries/) · [Italiano](https://mischianti.org/it/forums/forum/le-librerie-di-mischianti/)
+- 💬 Forum: [English](https://mischianti.org/forums/forum/mischiantis-libraries/qdy30a-rs485-modbus-devices/) · [Italiano](https://mischianti.org/it/forums/forum/le-librerie-di-mischianti/qdy30a-rs485-dispositivi-modbus/)
 - 🐛 Issues: [GitHub](https://github.com/xreef/qdy30a-rs485-micropython/issues)
