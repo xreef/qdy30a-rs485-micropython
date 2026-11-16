@@ -6,6 +6,7 @@
 [![](https://img.shields.io/badge/Platform-ESP32%20%7C%20ESP8266%20%7C%20RP2040%20%7C%20STM32-green.svg)]()
 [![](https://img.shields.io/badge/Protocol-Modbus%20RTU%20over%20RS485-blue.svg)]()
 [![](https://img.shields.io/badge/Install-mip-orange.svg)](#-installation)
+[![PyPI](https://img.shields.io/pypi/v/qdy30a-rs485-micropython.svg)](https://pypi.org/project/qdy30a-rs485-micropython/)
 [![](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE.md)
 
 A MicroPython library to read and configure the **QDY30A** submersible level transmitter over **RS485** with the
@@ -96,6 +97,16 @@ or from the PC with mpremote:
 mpremote mip install github:xreef/qdy30a-rs485-micropython
 ```
 
+### PyPI
+The package is also on [PyPI](https://pypi.org/project/qdy30a-rs485-micropython/): **Thonny** installs it on the board
+from *Tools > Manage packages* (search `qdy30a-rs485-micropython`). On the PC, for the IDE autocompletion:
+
+```bash
+pip install qdy30a-rs485-micropython
+```
+
+The modules use `machine` and `utime`: they run on the board, not on desktop Python.
+
 ### Manual copy
 Copy the three files of the `src` folder to the board (to the root or to `/lib`): `QDY30A_RS485.py`,
 `QDY30A_RS485_constants.py` and `QDY30A_RS485_operation_constant.py`. With **Thonny**: open them, right click >
@@ -153,7 +164,7 @@ The constructor accepts also `device_addr` (default `0x01`) and `baudrate` (defa
 
 - **2026-11-16 v0.1.1**: `set_baud_rate()`; `package.json` for installation with `mip`; examples fixed
   (`MeasurementUnit.UNIT_CM`, DE/RE comment); README with documentation, wiring and API; `setup.py`/`setup.cfg`
-  module names and links fixed.
+  module names and links fixed; published on PyPI.
 - **2024-02-06 v0.1.0**: initial release.
 
 ## 📄 License
