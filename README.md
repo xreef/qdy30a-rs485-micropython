@@ -17,9 +17,7 @@
 
 #### Comprehensive guides and tutorials on my site www.mischianti.org
 
-1. [QDY30A RS485 & MicroPython: Getting Started and Basic Usage](https://mischianti.org/link-to-article-1/)
-2. [Deep Dive into QDY30A RS485 Library Features](https://mischianti.org/link-to-article-2/)
-3. [Advanced Configuration with QDY30A RS485 MicroPython Library](https://mischianti.org/link-to-article-3/)
+[QDY30A RS485 & MicroPython: Getting Started and Basic Usage](https://mischianti.org/)
 
 ### Changelog
  - 2024-02-06 0.1.0 Initial release - Fully functional library
